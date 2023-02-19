@@ -1,14 +1,34 @@
-<h2>Welcome to True Rank</h2>
-<p>
-    Sometimes it's hard to find a real metric to find out what your rank is. The in-game MMR and LP system is broken, so use this tool as a dedicated
-    <br>
-    metric to see what your True Rank really is!
-</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.typekit.net/gsu5jly.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h2 class="hero-head">Welcome to True Rank</h2>
+    <p>
+      Sometimes it's hard to find a real metric to find out what your rank is.
+      The in-game MMR and LP system is broken, so use this tool as a dedicated
+      <br />
+      metric to see what your True Rank really is!
+    </p>
 
-<form (ngSubmit)="onSubmit()">
-    <input required [(ngModel)]="summonerName" name="summonerName" placeholder="Summoner Name">
-    
-    <br>
-    <button type="submit">Submit</button>
-</form>
+    <form (ngSubmit)="onSubmit()">
+      <input
+        required
+        [(ngModel)]="summonerName"
+        name="summonerName"
+        placeholder="Summoner Name"
+      />
 
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

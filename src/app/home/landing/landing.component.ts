@@ -7,7 +7,7 @@ import { TrueRankAPIService } from 'src/app/service/true-rankAPI';
 @Component({
   selector: 'app-landing',
   templateUrl: './landing.component.html',
-  styleUrls: ['./landing.component.css'],
+  styleUrls: ['./landing.component.scss'],
   standalone: true,
   imports: [HttpClientModule, FormsModule, RouterModule],
   providers: [TrueRankAPIService]

@@ -1,0 +1,64 @@
+// Typography; uses Google Fonts/Adobe Fonts to replicate LoL fonts as closely
+// as possible. See here for more details:
+//  https://brand.riotgames.com/en-us/league-of-legends/typography/#:~:text=Beaufort%20is%20the%20standard%20font%20for%20headlines%20and%20displays.
+
+@mixin font-h1 {
+    font-family: beaufort-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40pt;
+  }
+  
+  @mixin font-h2 {
+    font-family: beaufort-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28pt;
+  }
+  
+  @mixin font-h3 {
+    font-family: beaufort-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 23pt;
+  }
+  @mixin font-h4 {
+    font-family: beaufort-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18pt;
+  }
+  
+  @mixin font-h5 {
+      font-family: beaufort-pro, serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 14pt;
+    }
+    @mixin font-body {
+      font-family: "Merriweather Sans", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 14pt;
+    }
+  
+  @mixin font-label {
+      font-family: "Merriweather Sans", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 14pt;
+    }
+  
+    @mixin font-h1-number {
+      font-family: "Merriweather Sans", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 14pt;
+    }
+  
+    @mixin font-body-number {
+      font-family: beaufort-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14pt;
+    }
